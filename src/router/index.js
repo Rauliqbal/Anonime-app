@@ -12,6 +12,12 @@ const routes = [
       name: "list",
       component: () => import("../views/List.vue"),
    },
+
+   {
+      path: "/anime/:id",
+      name: "anime",
+      component: () => import("../views/AnimeView.vue"),
+   },
 ];
 
 const router = createRouter({

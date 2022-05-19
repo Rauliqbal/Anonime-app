@@ -48,30 +48,6 @@
          </div>
          <h5 class="text-white text-lg text-center mt-1">Spy X Family</h5>
       </a>
-
-      <a href="" class="flex flex-col items-center group h-[374px] overflow-hidden">
-         <div class="overflow-hidden rounded-xl grid relative">
-            <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/kimi_card.webp" alt="" />
-            <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Movie </span>
-         </div>
-         <h5 class="text-white text-lg text-center mt-1">Kimi No nawa</h5>
-      </a>
-
-      <a href="" class="flex flex-col items-center group h-[374px] overflow-hidden">
-         <div class="overflow-hidden rounded-xl grid relative">
-            <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/aot_card.webp" alt="" />
-            <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 27 </span>
-         </div>
-         <h5 class="text-white text-lg text-center mt-1">Attack On Titan : Final Season</h5>
-      </a>
-
-      <a href="" class="flex flex-col items-center group h-[374px] overflow-hidden">
-         <div class="overflow-hidden rounded-xl grid relative">
-            <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/shiagtsu_card.webp" alt="" />
-            <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Movie </span>
-         </div>
-         <h5 class="text-white text-lg text-center mt-1">Your Lie In April</h5>
-      </a>
    </div>
 </template>
 
