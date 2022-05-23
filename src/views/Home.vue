@@ -6,7 +6,6 @@
          <p class="text-gray-500 text-base md:text-lg">What are you gonna watch today ?</p>
          <Search class="mt-5 lg:hidden" />
          <Carousel class="mt-5" />
-
          <h2 class="text-3xl text-white font-semibold mt-8">New Realease</h2>
          <LatestMovie class="mt-5" />
       </div>

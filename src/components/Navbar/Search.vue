@@ -1,7 +1,7 @@
 <template>
    <div>
       <form @submit.prevent="HandleSearch">
-         <input class="py-2 px-6 rounded-full bg-gray-700 text-white outline-none border-none w-full lg:w-auto" type="search" placeholder="Search anime or movie" v-model="search_query" required />
+         <input class="py-2 px-6 rounded-full bg-gray-700 text-white outline-none border-none w-full lg:w-auto" type="text" placeholder="Search anime or movie" v-model="search_query" required />
       </form>
 
       <div class="absolute bg-gray-900 z-10 mt-4 rounded-xl w-[90%] md:w-[78%] lg:w-[366px] overflow-hidden">
@@ -27,7 +27,7 @@ export default {
             .then((res) => res.json())
             .then((data) => data.results);
 
-         // console.log(animelist.value);
+         console.log(animelist.value);
          search_query.value = "";
       };
 
@@ -37,6 +37,7 @@ export default {
          HandleSearch,
       };
    },
+
    components: { CardMovie },
 };
 </script>

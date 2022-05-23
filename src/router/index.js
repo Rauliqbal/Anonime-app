@@ -14,9 +14,9 @@ const routes = [
    },
 
    {
-      path: "/anime/:id",
+      path: "/anime/one-piece",
       name: "anime",
-      component: () => import("../views/AnimeView.vue"),
+      component: () => import("../views/animeview/Onepiece.vue"),
    },
 ];
 
