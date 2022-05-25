@@ -15,8 +15,14 @@ const routes = [
 
    {
       path: "/anime/one-piece",
-      name: "anime",
+
       component: () => import("../views/animeview/Onepiece.vue"),
+   },
+
+   {
+      path: "/anime/captain-tsubasa",
+
+      component: () => import("../views/animeview/Captaintsubasa.vue"),
    },
 ];
 

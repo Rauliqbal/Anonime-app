@@ -8,3 +8,19 @@
       @apply bg-[#192026] font-poppins;
    }
 }
+
+@layer utilities {
+   .anime_title {
+      @apply text-white text-lg text-center mt-1 capitalize;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+   }
+
+   .anime_title_popular {
+      @apply text-sm text-white text-center overflow-hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+   }
+}
