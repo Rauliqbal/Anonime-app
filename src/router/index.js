@@ -24,6 +24,30 @@ const routes = [
 
       component: () => import("../views/animeview/Captaintsubasa.vue"),
    },
+
+   {
+      path: "/anime/boruto-next-generations",
+
+      component: () => import("../views/animeview/Boruto.vue"),
+   },
+
+   {
+      path: "/anime/spy-x-family",
+
+      component: () => import("../views/animeview/Spyfamily.vue"),
+   },
+
+   {
+      path: "/anime/shingeki-no-kyoujin-final-season",
+
+      component: () => import("../views/animeview/Shingeki.vue"),
+   },
+
+   {
+      path: "/anime/aoashi",
+
+      component: () => import("../views/animeview/Aoashi.vue"),
+   },
 ];
 
 const router = createRouter({
