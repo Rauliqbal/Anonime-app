@@ -56,9 +56,18 @@
          </router-link>
 
          <!-- Card Movie -->
-         <router-link to="/anime/one-piece" class="flex flex-col items-center group h-[374px] overflow-hidden">
+         <router-link to="/anime/tomodachi" class="flex flex-col items-center group h-[374px] overflow-hidden">
             <div class="overflow-hidden rounded-xl grid relative">
                <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/tomodachi_card.webp" alt="Tomodachi cover image" />
+               <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 07 </span>
+            </div>
+            <h5 class="anime_title">Tomodachi Game</h5>
+         </router-link>
+
+         <!-- Card Movie -->
+         <router-link to="/anime/tomodachi" class="flex flex-col items-center group h-[374px] overflow-hidden">
+            <div class="overflow-hidden rounded-xl grid relative">
+               <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/b" alt="Tomodachi cover image" />
                <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 07 </span>
             </div>
             <h5 class="anime_title">Tomodachi Game</h5>

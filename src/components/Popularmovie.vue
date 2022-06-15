@@ -24,7 +24,7 @@
          </span>
       </router-link>
 
-      <router-link to="/anime/" class="col-span-3 md:col-span-2 lg:col-span-3 flex flex-col rounded-xl items-center overflow-hidden group relative">
+      <router-link to="/anime/tomodachi" class="col-span-3 md:col-span-2 lg:col-span-3 flex flex-col rounded-xl items-center overflow-hidden group relative">
          <img class="object-cover w-full max-h-[254px] h-full" src="@/assets/images/tomodachi_card.webp" alt="" />
          <span class="bg-gradient-to-t from-black w-full h-full flex flex-col justify-end items-center absolute py-4 px-2 text-gray-300 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
             <h1 class="anime_title_popular">Tomodachi Game</h1>

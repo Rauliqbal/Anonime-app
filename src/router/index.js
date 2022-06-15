@@ -48,6 +48,12 @@ const routes = [
 
       component: () => import("../views/animeview/Aoashi.vue"),
    },
+
+   {
+      path: "/anime/tomodachi",
+
+      component: () => import("../views/animeview/Tomodachi.vue"),
+   },
 ];
 
 const router = createRouter({

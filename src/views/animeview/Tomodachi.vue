@@ -3,11 +3,11 @@
       <Navbar />
       <div class="grid grid-cols-7 gap-8 px-6 lg:px-8 my-8">
          <div class="col-span-full lg:col-span-5">
-            <h1 class="text-xl md:text-3xl lg:text-4xl text-white capitalize font-semibold">Aoashi - Episode 07</h1>
+            <h1 class="text-xl md:text-3xl lg:text-4xl text-white capitalize font-semibold">Tomodachi game - Episode 07</h1>
             <div class="rounded-xl overflow-hidden aspect-video mt-5">
                <iframe
                   class="w-full h-full"
-                  src="https://www.youtube.com/embed/t8GKAayC6cI"
+                  src="https://www.youtube.com/embed/k8NQZxc6X4c"
                   title="Aoashi trailer"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -17,7 +17,7 @@
 
             <div class="grid grid-cols-6 gap-4 md:gap-8 mt-8">
                <div class="col-span-3 lg:col-span-2">
-                  <img class="w-full h-[260px] lg:h-[354px] rounded-xl overflow-hidden object-cover" src="@/assets/images/aoashi_card.webp" alt="" />
+                  <img class="w-full h-[260px] lg:h-[354px] rounded-xl overflow-hidden object-cover" src="@/assets/images/tomodachi_card.webp" alt="" />
                </div>
 
                <div class="col-span-3 lg:col-span-3">
@@ -32,15 +32,15 @@
                      </div>
                      <div class="flex flex-col">
                         <h2 class="text-base lg:text-xl text-white font-semibold">Studios :</h2>
-                        <p class="text-xs lg:text-lg text-gray-400 capitalize">Production I.G</p>
+                        <p class="text-xs lg:text-lg text-gray-400 capitalize">Okuruto Noboru</p>
                      </div>
                      <div class="flex flex-col">
                         <h2 class="text-base lg:text-xl text-white font-semibold">Duration :</h2>
-                        <p class="text-xs lg:text-lg text-gray-400 capitalize">24 min.</p>
+                        <p class="text-xs lg:text-lg text-gray-400 capitalize">22 min.</p>
                      </div>
                      <div class="flex flex-col">
                         <h2 class="text-base lg:text-xl text-white font-semibold">Genres :</h2>
-                        <p class="text-xs lg:text-lg text-gray-400 capitalize">Sports</p>
+                        <p class="text-xs lg:text-lg text-gray-400 capitalize">Psychological, Strategy Game</p>
                      </div>
                   </div>
                </div>
@@ -48,7 +48,7 @@
                <div class="hidden md:block col-span-1">
                   <div class="py-1 px-4 text-lg bg-gray-900 border border-gray-600 text-white text-center rounded-xl">
                      <p class="text-center text-base tracking-wide -mb-1">score</p>
-                     <span>7.86</span>
+                     <span>7.48</span>
                   </div>
                </div>
             </div>
@@ -56,8 +56,8 @@
             <div class="flex flex-col mt-8">
                <h2 class="text-base lg:text-xl text-white font-semibold">Sypnopsis :</h2>
                <p class="text-sm lg:text-lg text-gray-400 capitalize mt-1 leading-relaxed">
-                  n a quiet rural town, the spotlight of a local junior high school football team rests on one player: Ashito Aoi. Known for his unpredictable moves and self-centered playing style, Ashito is the sole powerhouse pushing his
-                  team through an important high school preliminary tournament. However, their win streak is short-lived—an opponent causes Ashito to lose his temper and act violently, resulting in his removal from the rest of the game.
+                  High school student Yuuichi Katagiri cherishes his close circle of friends, composed of four classmates: Yutori Kokorogi, Shiho Sawaragi, Makoto Shibe, and Tenji Mikasa. However, when the funds for the upcoming school trip
+                  are stolen, the incident causes Shiho and Makoto—who had been tasked with collecting the money—to distance themselves from the rest of their class.
                </p>
             </div>
          </div>
