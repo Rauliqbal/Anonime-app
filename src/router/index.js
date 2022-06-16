@@ -54,6 +54,30 @@ const routes = [
 
       component: () => import("../views/animeview/Tomodachi.vue"),
    },
+
+   {
+      path: "/anime/my-hero-academia",
+      component: () => import("../views/animeview/Bokunohero.vue"),
+   },
+
+   {
+      path: "/anime/tokyo-revengers",
+      component: () => import("../views/animeview/Tokyorev.vue"),
+   },
+
+   {
+      path: "/anime/full-metal-alchemist",
+      component: () => import("../views/animeview/Fullmetal.vue"),
+   },
+
+   {
+      path: "/anime/paripi-koumei",
+      component: () => import("../views/animeview/Paripi.vue"),
+   },
+   {
+      path: "/anime/kingdom-4th",
+      component: () => import("../views/animeview/Kingdom4th.vue"),
+   },
 ];
 
 const router = createRouter({

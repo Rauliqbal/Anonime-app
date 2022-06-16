@@ -65,12 +65,48 @@
          </router-link>
 
          <!-- Card Movie -->
-         <router-link to="/anime/tomodachi" class="flex flex-col items-center group h-[374px] overflow-hidden">
+         <router-link to="/anime/my-hero-academia" class="flex flex-col items-center group h-[374px] overflow-hidden">
             <div class="overflow-hidden rounded-xl grid relative">
-               <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/b" alt="Tomodachi cover image" />
-               <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 07 </span>
+               <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/myhero_card.webp" alt="My hero academia cover image" />
+               <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 13 </span>
             </div>
-            <h5 class="anime_title">Tomodachi Game</h5>
+            <h5 class="anime_title">my hero academia S1</h5>
+         </router-link>
+
+         <!-- Card Movie -->
+         <router-link to="/anime/tokyo-revengers" class="flex flex-col items-center group h-[374px] overflow-hidden">
+            <div class="overflow-hidden rounded-xl grid relative">
+               <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/tokrev_card.webp" alt="tokyo revengers cover image" />
+               <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 24 </span>
+            </div>
+            <h5 class="anime_title">Tokyo revengers</h5>
+         </router-link>
+
+         <!-- Card Movie -->
+         <router-link to="/anime/full-metal-alchemist" class="flex flex-col items-center group h-[374px] overflow-hidden">
+            <div class="overflow-hidden rounded-xl grid relative">
+               <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/fmab_card.webp" alt="full metal alchemist brotherhood cover image" />
+               <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 64 </span>
+            </div>
+            <h5 class="anime_title">Full metal alchemist : Brotherhood</h5>
+         </router-link>
+
+         <!-- Card Movie -->
+         <router-link to="/anime/paripi-koumei" class="flex flex-col items-center group h-[374px] overflow-hidden">
+            <div class="overflow-hidden rounded-xl grid relative">
+               <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/paripi_card.webp" alt="paripi koumei cover image" />
+               <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 12 </span>
+            </div>
+            <h5 class="anime_title">paripi koumei</h5>
+         </router-link>
+
+         <!-- Card Movie -->
+         <router-link to="/anime/kingdom-4th" class="flex flex-col items-center group h-[374px] overflow-hidden">
+            <div class="overflow-hidden rounded-xl grid relative">
+               <img class="object-cover w-full h-[310px] group-hover:scale-105 transition-all duration-300" src="../assets/images/kingdom4th_card.webp" alt="kingdom 4th season cover image" />
+               <span class="bg-gradient-to-t from-black/80 w-full h-full flex justify-center items-end absolute p-2 text-gray-300"> Episode 26 </span>
+            </div>
+            <h5 class="anime_title">Kingdom 4th season</h5>
          </router-link>
       </div>
    </div>

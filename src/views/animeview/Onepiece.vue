@@ -17,7 +17,7 @@
 
             <div class="grid grid-cols-6 gap-4 md:gap-8 mt-8">
                <div class="col-span-3 lg:col-span-2">
-                  <img class="w-full h-[260px] lg:h-[354px] rounded-xl overflow-hidden object-cover" src="@/assets/images/op_card.webp" alt="" />
+                  <img class="w-full h-[260px] md:h-[354px] lg:h-[410px] rounded-xl overflow-hidden object-cover" src="@/assets/images/op_card.webp" alt="One Piece Poster" />
                </div>
 
                <div class="col-span-3 lg:col-span-3">

@@ -24,9 +24,7 @@
                         <li>
                            <router-link to="/list" class="text-gray-500 hover:text-gray-100 transition-all duration-200 ease-out"> List anime </router-link>
                         </li>
-                        <li>
-                           <router-link to="/genres" class="text-gray-500 hover:text-gray-100 transition-all duration-200 ease-out"> Genres </router-link>
-                        </li>
+                        
                      </ul>
                   </div>
                </div>
