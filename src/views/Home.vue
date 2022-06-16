@@ -9,6 +9,7 @@
          <h2 class="text-3xl text-white font-semibold mt-8">New Realease</h2>
          <LatestMovie class="mt-5" />
       </div>
+      <Footer class="mt-8"/>
    </div>
 </template>
 
@@ -17,10 +18,11 @@ import Navbar from "@/components/Navbar.vue";
 import Carousel from "@/components/carousel.vue";
 import LatestMovie from "@/components/LatestMovie.vue";
 import Search from "@/components/Navbar/Search.vue";
+import Footer from "@/components/Footer.vue";
 // @ is an alias to /src
 
 export default {
    name: "HomeView",
-   components: { Navbar, Carousel, LatestMovie, Search },
+   components: { Navbar, Carousel, LatestMovie, Search, Footer },
 };
 </script>
